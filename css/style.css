@@ -1,0 +1,238 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-size: 20px;
+	font-weight: 400;
+	background-color: #fff;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+	text-rendering: optimizeLegibility;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: ' ';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/********* Header ******/
+header {
+	height: 80px;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+	margin-top: 28px;
+}
+
+.main-menu {
+	width: 70%;
+	float: right;
+	margin-top: 23px;
+}
+
+.main-menu ul {
+	list-style: none;
+	float: right;
+}
+
+.main-menu ul li {
+	display: inline-block;
+	float: left;
+	margin-left: 50px;
+}
+
+.main-menu ul li a{
+	text-decoration: none;
+	color: #555;
+	font-size: 75%;
+	text-transform: uppercase;
+	
+}
+
+/****** Banner Area *********/
+
+#banner {
+	background: url(../img/banner_bg.png);
+	width: 80%;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 675px;
+}
+
+/********** Blog Area Start ********/
+
+#big-blog,
+#blog-thumb {
+	padding: 80px 5% 80px 5%;
+}
+
+h6 {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	color: #b4ad9e;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+h2 {
+	margin-bottom: 12px;
+	font-weight: 500;
+}
+
+p {
+	font-size: 80%;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+#blog-thumb1 .box, 
+#blog-thumb2 .box,
+#blog-thumb3 .box {
+	width: 47%;
+	margin: 3%;
+	float: left;
+}
+
+#blog-thumb1 .box img,
+#blog-thumb2 .box img,
+#blog-thumb3 .box img {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#blog-thumb1 .box:first-child,
+#blog-thumb2 .box:first-child,
+#blog-thumb3 .box:first-child {
+	margin-left: 0;
+}
+
+#blog-thumb1 .box:last-child,
+#blog-thumb2 .box:last-child,
+#blog-thumb3 .box:last-child {
+	margin-right: 0;
+}
+
+.button {
+	padding: 100px 0;
+}
+
+.button a {
+	text-decoration: none;
+    color: #555;
+    padding: 10px 20px;
+    border: 1px solid #555;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 0.4s ease;
+}
+
+.button a:hover {
+	background-color: #555;
+	color: #fff;
+}
+
+/******* Newsletter Section Start *********/
+
+#news {
+	background: #f0f0f0;
+	text-align: center;
+	min-height: 200px;
+	margin-bottom: 60px;
+}
+
+
+#news h2 {
+	padding: 60px 0;
+}
+
+#news form {
+	position: relative;
+	width: 350px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+
+
+#news input {
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #626262;
+	width: 100%;
+	padding: 10px 40px 10px 0;
+}
+
+#news button {
+	position: absolute;
+	right: 0;
+	border: none;
+	background: transparent;
+	top: 10px;
+}
+
+#news button:hover {
+	cursor: pointer;
+}
+
+/****** Footer Section *******/
+
+footer {
+	background-color: #f0f0f0;
+	padding: 20px 0;
+}
+
+.left {
+	width: 50%;
+	float: left;
+}
+
+.right {
+	width: 50%;
+	float: right;
+}
+
+.left ul {
+	list-style: none;
+}
+
+.left ul li {
+	display: inline-block;
+	float: left;
+}
+
+.left ul li a {
+	text-decoration: none;
+	color: #222;
+	margin-right: 20px;
+}
+
+.right ul {
+	list-style: none;
+	float: right;
+}
+
+.right ul li {
+	display: inline-block;
+	float: left;
+}
+
+.right ul li a {
+	text-decoration: none;
+	color: #222;
+	margin-left: 20px;
+}
+
